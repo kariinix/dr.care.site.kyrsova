@@ -1,0 +1,118 @@
+@media (min-width: 1024px) {
+    .blog-catalog__inner {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      gap: 24px;
+      row-gap: 24px;
+    }
+  }
+  .blog-catalog__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    height: 160px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #F6FAFF;
+  }
+  .blog-catalog__item + .blog-catalog__item {
+    margin-top: 20px;
+  }
+  .blog-catalog__card {
+    width: calc(33.3% - 16px);
+    height: 540px;
+    border-radius: 15px;
+    background-color: #F6FAFF;
+  }
+  .blog-catalog__image {
+    max-width: 250px;
+  }
+  @media (min-width: 1024px) {
+    .blog-catalog__image {
+      max-width: 412px;
+    }
+  }
+  .blog-catalog__content {
+    position: relative;
+  }
+  @media (min-width: 1024px) {
+    .blog-catalog__content {
+      position: initial;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      padding: 20px;
+    }
+  }
+  .blog-catalog__heading {
+    margin-left: 8px;
+  }
+  .blog-catalog__date {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(79, 87, 92, 0.8);
+  }
+  @media (min-width: 768px) {
+    .blog-catalog__date {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+  .blog-catalog__name {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  @media (min-width: 768px) {
+    .blog-catalog__name {
+      font-size: 22px;
+      line-height: 30px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .blog-catalog__name {
+      margin-top: 16px;
+    }
+  }
+  .blog-catalog__description {
+    margin: 21px 0;
+  }
+  .blog-catalog__actions {
+    position: absolute;
+    bottom: 0;
+  }
+  @media (min-width: 1024px) {
+    .blog-catalog__actions {
+      position: initial;
+    }
+  }
+  
+  .pagination__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+  }
+  .pagination__item {
+    padding: 10px 0;
+  }
